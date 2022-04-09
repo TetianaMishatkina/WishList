@@ -1,0 +1,30 @@
+@import "../../variables.scss";
+
+.wish-list-item{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+
+    &__input{
+        width:100%;
+        &.active input{
+            text-decoration: line-through;
+        }
+    }
+
+    &__icons{
+        display: flex;
+        justify-content: space-between;  
+        & svg{
+            margin-left: 1rem;
+            cursor: pointer;
+            color: $primary-color;
+            &:hover{
+                color: $secondary-color;
+            }
+        }
+    }
+
+   
+}

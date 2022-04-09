@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "CremeEspana";
+    src: url('../../assets/Creme\ Espana.otf')
+}
+
+
+.header{
+    max-width: 1440px;
+    width: 100%;
+    height: 8rem;
+    border: 2px solid #E8E8EB;
+    box-sizing: border-box;
+    padding: 1rem 8.1rem;
+    position:relative;
+    display: flex;
+    align-items: self-end;
+    background-color: white;
+
+    & h1{
+        position:absolute;
+        top: 2.5rem;
+        left: 13.5rem;
+        font-family: "CremeEspana";
+        font-size: 5.5rem;
+        margin: 0;
+        line-height: 100%;
+        color: hotpink;
+        z-index: 1;
+    }
+    & svg{
+        z-index:2;
+        position: relative;
+        color: hotpink;
+    }
+}

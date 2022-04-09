@@ -1,0 +1,23 @@
+.login-page{
+    
+   
+
+    &__container{
+        margin: 5rem 8rem;
+
+        & h1{
+            font-size: 3.3rem;
+        }
+
+        & p{
+            font-size: 1.8rem;
+        }
+    }
+
+    &__inputs{
+        max-width: 30rem;
+    }
+    &__button{
+        max-width: 15rem;
+    }
+}

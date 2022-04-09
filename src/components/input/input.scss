@@ -1,0 +1,27 @@
+@import "../../variables.scss";
+
+.input{
+    
+   & label{
+       font-size: 1.7rem;
+   }
+
+   & input{
+       width:100%;
+       height: 4rem;
+       margin: 1rem auto;
+       border-radius: 1rem;
+       box-shadow: none;
+       border: 2px solid $secondary-color;
+       padding-left: 1rem;
+       font-size: 2rem;
+       box-sizing: border-box;
+
+       &:hover{
+           background-color: lighten($color: $secondary-color, $amount: 5%);
+       }
+       &:focus{
+           outline: none;
+       }
+   }
+}

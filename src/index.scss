@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import "./variables.scss";
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lighten($color: $secondary-color, $amount: 3%);
+}
+
+.Toastify{
+  &__toast-body{
+    font-size: 2rem;
+  }
+}
+
+:root{
+  font-size: 10px;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
